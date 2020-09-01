@@ -7,4 +7,6 @@ RUN apk add --update --no-cache \
         gettext \
         curl~=${CURL_VERSION} \
         openssl \
-        ca-certificates
+        ca-certificates \
+        bash \
+        make
